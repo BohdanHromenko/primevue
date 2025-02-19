@@ -1718,11 +1718,11 @@ export default {
                 state.filters = this.filters;
             }
 
-            if (this.resizableColumns) {
+            if (this.resizableColumns && this.stateParams.resizableColumns) {
                 this.saveColumnWidths(state);
             }
 
-            if (this.reorderableColumns) {
+            if (this.reorderableColumns && this.stateParams.reorderableColumns) {
                 state.columnOrder = this.d_columnOrder;
             }
 

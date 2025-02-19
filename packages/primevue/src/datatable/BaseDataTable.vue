@@ -202,6 +202,13 @@ export default {
             type: String,
             default: null
         },
+        stateParams: {
+            type: Object,
+            default: {
+                resizableColumns: true,
+                reorderableColumns: true,
+            }
+        },
         editMode: {
             type: String,
             default: null
