@@ -1705,7 +1705,7 @@ export default {
                 state.rows = this.d_rows;
             }
 
-            if (this.d_sortField) {
+            if (this.d_sortField && this.stateParams.d_sortField) {
                 state.sortField = this.d_sortField;
                 state.sortOrder = this.d_sortOrder;
             }
@@ -1714,7 +1714,7 @@ export default {
                 state.multiSortMeta = this.d_multiSortMeta;
             }
 
-            if (this.hasFilters) {
+            if (this.hasFilters && this.stateParams.hasFilters) {
                 state.filters = this.filters;
             }
 

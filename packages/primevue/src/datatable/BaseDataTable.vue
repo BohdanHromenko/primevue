@@ -207,6 +207,8 @@ export default {
             default: {
                 resizableColumns: true,
                 reorderableColumns: true,
+                hasFilters: false,
+                d_sortField: false,
             }
         },
         editMode: {
