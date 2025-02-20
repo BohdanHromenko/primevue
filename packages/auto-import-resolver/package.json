@@ -7,7 +7,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primevue.git",
+        "url": "https://github.com/BohdanHromenko/primevue.git",
         "directory": "packages/auto-import-resolver"
     },
     "bugs": {
